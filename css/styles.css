@@ -51,6 +51,12 @@ body {
     color: #ffffff;
     font-size: 15px;
     font-family: 'Oswald';
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 /* Main page styles */
@@ -65,6 +71,7 @@ body {
     background-position: center center;
     height: 100vh;
     padding-left: 397px;
+    transition: all .3s linear;
 }
 .header {
     margin-bottom: 30px;
@@ -138,6 +145,12 @@ body {
     background-image: url(../images/bg-main-2.png);
     padding-left: 300px;
     overflow: hidden;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
 }
 .main_login {
     padding-right: 376px;
@@ -218,6 +231,12 @@ body {
     background: #FFC08C;
     filter: none;
     box-shadow: 0px 0px 100px rgba(255, 233, 36, 0.44);
+}
+.hide {
+    opacity: 0;
+}
+.show {
+    left: 0;
 }
 
 /* MEDIA QUERIES */
