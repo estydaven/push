@@ -145,12 +145,13 @@ body {
     background-image: url(../images/bg-main-2.png);
     padding-left: 300px;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     left: 100%;
     top: 0;
     bottom: 0;
     right: 0;
     opacity: 1;
+    /* display: none; */
 }
 .main_login {
     padding-right: 376px;
@@ -237,6 +238,7 @@ body {
 }
 .show {
     left: 0;
+    /* display: flex; */
 }
 
 /* MEDIA QUERIES */
@@ -367,7 +369,7 @@ body {
         display: none;
     }
     .header_login {
-        margin-bottom: 130px;
+        margin-bottom: 100px;
     }
     .login-form {
         margin-right: 0;
