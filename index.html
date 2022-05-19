@@ -9,32 +9,34 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="body-wrapper body-wrapper_main">
-        <header class="header">
-            <img src="images/logo.svg" class="header__logo" alt="">
-        </header>
-        <main class="main">
-            <h1 class="main__title">Монетизируем ваш сайт <span class="main__subtitle">пуш уведомлениями</span></h1>            
-            <button type="button" class="main__button button">Войти</button>
-        </main>
-    </div>
-    <div class="body-wrapper body-wrapper_login">
-        <main class="login-wrapper">
-            <section class="login-form">
-                <h2 class="login-form__title">Войти</h2>
-                <form action="" class="form" method="post">
-                    <input type="text" class="form__field" placeholder="Логин" name="login" required>
-                    <input type="password" class="form__field" placeholder="Пароль" name="password" required>
-                    <button class="main__button main__button_form">Войти</button>
-                </form>
-            </section>
-            <section class="main main_login">
-                <div class="header header_login">
-                    <img src="images/logo.svg" class="header__logo" alt="">
-                </div>
-                <h1 class="main__title main__title_login">Монетизируем ваш сайт <span class="main__subtitle">пуш уведомлениями</span></h1>
-            </section>
-        </main>
+    <div class="wrapper">
+        <div class="body-wrapper body-wrapper_main first">
+            <header class="header">
+                <img src="images/logo.svg" class="header__logo" alt="">
+            </header>
+            <div class="main">
+                <h1 class="main__title">Монетизируем ваш сайт <span class="main__subtitle">пуш уведомлениями</span></h1>            
+                <button type="button" class="main__button button">Войти</button>
+            </div>
+        </div>
+        <div class="body-wrapper body-wrapper_login second">
+            <div class="login-wrapper">
+                <section class="login-form">
+                    <h2 class="login-form__title">Войти</h2>
+                    <form action="" class="form" method="post">
+                        <input type="text" class="form__field" placeholder="Логин" name="login" required>
+                        <input type="password" class="form__field" placeholder="Пароль" name="password" required>
+                        <button class="main__button main__button_form">Войти</button>
+                    </form>
+                </section>
+                <section class="main main_login">
+                    <div class="header header_login">
+                        <img src="images/logo.svg" class="header__logo" alt="">
+                    </div>
+                    <h1 class="main__title main__title_login">Монетизируем ваш сайт <span class="main__subtitle">пуш уведомлениями</span></h1>
+                </section>
+            </div>
+        </div>
     </div>
 
     <script src="js/main.js"></script>
